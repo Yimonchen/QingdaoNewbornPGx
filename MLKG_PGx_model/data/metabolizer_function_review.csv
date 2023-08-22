@@ -1,0 +1,61 @@
+﻿gene,metabolizer,json_str
+CYP1A2,Normal Metabolizer,
+CYP1A2,Poor Metabolizer,
+CYP1A2,Intermediate Metabolizer,
+CYP1A2,Rapid Metabolizer,
+CYP1A2,Ultrarapid Metabolizer,
+CYP2B6,Normal Metabolizer,"[[""normal"", ""normal""]]"
+CYP2B6,Poor Metabolizer,"[[""no"", ""no""], [""decreased"", ""decreased""], [""no"", ""decreased""]]"
+CYP2B6,Intermediate Metabolizer,"[[""normal"", ""no""], [""normal"", ""decreased""], [""increased"", ""decreased""], [""increased"", ""no""]]"
+CYP2B6,Rapid Metabolizer,"[[""normal"", ""increased""]]"
+CYP2B6,Ultrarapid Metabolizer,"[[""increased"", ""increased""]]"
+CYP2C19,Normal Metabolizer,"[[""normal"", ""normal""]]"
+CYP2C19,Poor Metabolizer,"[[""no"", ""no""]]"
+CYP2C19,Intermediate Metabolizer,"[[""normal"", ""no""], [""no"", ""increased""], [""normal"", ""decreased""]]"
+CYP2C19,Rapid Metabolizer,"[[""increased"", ""normal""]]"
+CYP2C19,Ultrarapid Metabolizer,"[[""increased"", ""increased""]]"
+CYP2C9,Normal Metabolizer,"[[""normal"", ""normal""]]"
+CYP2C9,Poor Metabolizer,"[[""no"", ""no""], [""no"", ""decreased""]]"
+CYP2C9,Intermediate Metabolizer,"[[""normal"", ""decreased""], [""normal"", ""no""], [""no"", ""no""]]"
+CYP2C9,Rapid Metabolizer,
+CYP2C9,Ultrarapid Metabolizer,"[[""increased"", ""increased""]]"
+CYP2D6,Normal Metabolizer,"[[""normal"", ""normal""], [""decreased"", ""decreased""], [""normal"", ""no""], [""normal"", ""decreased""]]"
+CYP2D6,Poor Metabolizer,"[[""no"", ""no""]]"
+CYP2D6,Intermediate Metabolizer,"[[""no"", ""decreased""]]"
+CYP2D6,Rapid Metabolizer,
+CYP2D6,Ultrarapid Metabolizer,"[[""increased"", ""increased""]]"
+CYP3A4,Normal Metabolizer,
+CYP3A4,Poor Metabolizer,
+CYP3A4,Intermediate Metabolizer,
+CYP3A4,Rapid Metabolizer,
+CYP3A4,Ultrarapid Metabolizer,
+CYP3A5,Normal Metabolizer,"[[""normal"", ""normal""]]"
+CYP3A5,Poor Metabolizer,"[[""no"", ""no""]]"
+CYP3A5,Intermediate Metabolizer,"[[""no"", ""normal""]]"
+CYP3A5,Rapid Metabolizer,
+CYP3A5,Ultrarapid Metabolizer,
+DPYD,Normal Metabolizer,"[[""normal"", ""normal""]]"
+DPYD,Poor Metabolizer,"[[""no"", ""no""], [""decreased"", ""decreased""], [""no"", ""decreased""]]"
+DPYD,Intermediate Metabolizer,"[[""normal"", ""no""], [""normal"", ""decreased""]]"
+DPYD,Rapid Metabolizer,
+DPYD,Ultrarapid Metabolizer,
+NUDT15,Normal Metabolizer,"[[""normal"", ""normal""]]"
+NUDT15,Poor Metabolizer,"[[""no"", ""no""]]"
+NUDT15,Intermediate Metabolizer,"[[""normal"", ""no""]]"
+NUDT15,Rapid Metabolizer,
+NUDT15,Ultrarapid Metabolizer,
+SLCO1B1,Normal Metabolizer,"[[""normal"", ""normal""]]"
+SLCO1B1,Poor Metabolizer,"[[""no"", ""no""]]"
+SLCO1B1,Intermediate Metabolizer,"[[""normal"", ""no""]]"
+SLCO1B1,Rapid Metabolizer,
+SLCO1B1,Ultrarapid Metabolizer,
+TPMT,Normal Metabolizer,"[[""normal"", ""normal""]]"
+TPMT,Poor Metabolizer,"[[""no"", ""no""]]"
+TPMT,Intermediate Metabolizer,"[[""normal"", ""no""]]"
+TPMT,Rapid Metabolizer,
+TPMT,Ultrarapid Metabolizer,
+UGT1A1,Normal Metabolizer,"[[""normal"", ""normal""]]"
+UGT1A1,Poor Metabolizer,"[[""decreased"", ""decreased""]]"
+UGT1A1,Intermediate Metabolizer,"[[""normal"", ""decreased""], [""normal"", ""increased""]]"
+UGT1A1,Rapid Metabolizer,
+UGT1A1,Ultrarapid Metabolizer,

@@ -1,0 +1,19 @@
+LRT_score:
+  type: "lt"
+  threshold: 0.0025
+
+MutationAssessor_score:
+  type: "gt"
+  threshold: 2.0566
+
+PROVEAN_score:
+  type: "lt"
+  threshold: -3.286
+
+VEST4_score:
+  type: "gt"
+  threshold: 0.4534
+
+CADD_raw:
+  type: "gt"
+  threshold: 19.19
