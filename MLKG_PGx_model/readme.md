@@ -1,15 +1,15 @@
-## 罕见新发变异功能预测模型
+## The MLKG_PGx model development
 
-### Stage 1: 基因变异注释打分
+### Stage 1: Anotation scores abd features used for feature engineering
 
-主要注释信息：
+Main features：
 
 ```
 LoFtool
 variant_type (16 types)
 ```
 
-其余注释分数相关性排名：
+Other feature importance ranking：
 
 ```
 ['DEOGEN2_score', 0.455324387891]
@@ -24,7 +24,7 @@ variant_type (16 types)
 ['PROVEAN_score', 0.1072015303403139]
 ```
 
-APF涉及到的特征：
+feature used in APF model：
 
 ```
 LRT
@@ -34,11 +34,10 @@ VEST4
 CADD
 ```
 
-### Stage 2: 基因变异药物功能影响预测
+### Stage 2: Binary classification model traning and validation
 
-功能影响二分类模型
 
-二分类模型训练集中使用到的基因：
+Pharmacogenes involved in this model development：
 
 ```
 ABCC2  CYP17A1  CYP1A2  CYP1B1  CYP21A2
@@ -50,28 +49,29 @@ SLCO1B1  TPMT  UGT1A1  UGT1A10  UGT1A4
 UGT1A8  UGT1A9
 ```
 
-总有有535个基因变异做训练集，标签统计如下：
+There were 535 genetic variation for tarining，which were well annotated as following：
 
 | function  | count  |
 |---|---|
 | deleterious | 385 |
 | neutral | 150 |
 
-交叉验证效果：
+Cross-validation results：
 
-[点击链接](https://bgitech-my.sharepoint.com/:x:/g/personal/zhangke1_genomics_cn/ESiRWdziYVVDnLmvuhzZ4bgBFKDlap-YPUoKGMNuo3cO-Q?e=NWyg2O)
+[clicking](https://bgitech-my.sharepoint.com/:x:/g/personal/zhangke1_genomics_cn/ESiRWdziYVVDnLmvuhzZ4bgBFKDlap-YPUoKGMNuo3cO-Q?e=NWyg2O)
 
 
-### Stage 3: 变异代谢功能推理
+### Stage 3: Multi-classification model training and validation
 
-对于在以下基因范围内的突变，可以基于图谱，运用变异功能代谢型推理：
+
+Pharmacogenes involved in this model development：
 
 ```
 CYP2B6  CYP2C19  CYP2C9  CYP2D6  DPYD  NUDT15
 RYR1  SLCO1B1  TPMT  UGT1A1  D6PD
 ```
 
-代谢影响四分类中，总共有377个基因变异做训练集
+There were total 377 genetic variation for training, and well annotated as following:
 
 | function | count |
 |---|---|
@@ -80,6 +80,6 @@ RYR1  SLCO1B1  TPMT  UGT1A1  D6PD
 | no function | 192 |
 | normal function | 65 |
 
-交叉验证结果：
+Cross-validation results：
 
-[点击链接](https://bgitech-my.sharepoint.com/:x:/g/personal/zhangke1_genomics_cn/EdQ-XZabn6NNmWhsBMn2wwcBIYw9thRRXZD73jSoMdta8w?e=q2IS61)
+[clicking](https://bgitech-my.sharepoint.com/:x:/g/personal/zhangke1_genomics_cn/EdQ-XZabn6NNmWhsBMn2wwcBIYw9thRRXZD73jSoMdta8w?e=q2IS61)
