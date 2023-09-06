@@ -1,0 +1,52 @@
+rosuvastatin
+PHENOTYPE	ABCG2 NORMAL FUNCTION	ABCG2 DECREASED FUNCTION（Het)	ABCG2 POOR FUNCTION (Hom)
+SLCO1B1 normal function	NormalDose	NormalDose	DecreasedDose
+SLCO1B1 increased function	NormalDose	NormalDose	DecreasedDose
+SLCO1B1 decreased function	NormalDose	NormalDose	DecreasedDose
+SLCO1B1 possible decreased function	NormalDose	NormalDose	DecreasedDose
+SLCO1B1 poor function	DecreasedDose	DecreasedDose	DecreasedDose
+
+amitriptyline
+PHENOTYPE	CYP2D6 ULTRARAPID METABOLIZER	CYP2D6 NORMAL METABOLIZER	CYP2D6 INTERMEDIATE METABOLIZER	CYP2D6 POOR METABOLIZER
+CYP2C19 Ultrarapid or Rapid metabolizer	AlternateDrug	AlternateDrug	AlternateDrug	AlternateDrug
+CYP2C19 Normal metabolizer	AlternateDrug	NormalDose	DecreasedDose	DecreasedDose/AlternateDrug
+CYP2C19 Intermediate metabolizer	AlternateDrug	NormalDose	DecreasedDose	DecreasedDose/AlternateDrug
+CYP2C19 Poor metabolizer	AlternateDrug	DecreasedDose/AlternateDrug	AlternateDrug	AlternateDrug
+
+fluvastatin
+PHENOTYPE	CYP2C9 NORMAL METABOLIZER	CYP2C9 INTERMEDIATE METABOLIZER	CYP2C9 POOR METABOLIZER
+SLCO1B1 normal function	NormalDose	DecreasedDose	DecreasedDose
+SLCO1B1 increased function	NormalDose	DecreasedDose	DecreasedDose
+SLCO1B1 decreased function	NormalDose	DecreasedDose	AlternateDrug
+SLCO1B1 possible decreased function	NormalDose	DecreasedDose	AlternateDrug
+SLCO1B1 poor function	DecreasedDose	AlternateDrug	AlternateDrug
+
+phenytoin_fosphenytoin
+PHENOTYPE	CYP2C9 NORMAL METABOLIZER	CYP2C9 INTERMEDIATE METABOLIZER	CYP2C9 POOR METABOLIZER
+HLA-B*15:02 Positive	AlternateDrug	AlternateDrug	AlternateDrug
+HLA-B*15:02 Negative	NormalDose	DecreasedDose	DecreasedDose
+
+carbamazepine
+PHENOTYPE	HLA-B*15:02 Negative	HLA-B*15:02 Positive
+HLA-A*31:01 Negative	NormalDose	AlternateDrug
+HLA-A*31:01 Positive	AlternateDrug	AlternateDrug
+
+azathioprine
+PHENOTYPE	TPMT NORMAL METABOLIZER	TPMT INTERMEDIATE METABOLIZER	TPMT POOR METABOLIZER
+NUDT15 Normal Metabolizer	NormalDose	DecreasedDose	DecreasedDose/AlternateDrug
+NUDT15 Intermediate Metabolizer	DecreasedDose	DecreasedDose	DecreasedDose/AlternateDrug
+NUDT15 Poor Metabolizer	DecreasedDose/AlternateDrug	DecreasedDose/AlternateDrug	DecreasedDose/AlternateDrug
+
+thioguanine
+PHENOTYPE	TPMT NORMAL METABOLIZER	TPMT INTERMEDIATE METABOLIZER	TPMT POOR METABOLIZER
+NUDT 15 Normal Metabolizer	NormalDose	DecreasedDose	DecreasedDose/AlternateDrug
+NUDT15 Intermediate Metabolizer	DecreasedDose	DecreasedDose	DecreasedDose/AlternateDrug
+NUDT15 Poor Metabolizer	DecreasedDose/AlternateDrug	DecreasedDose/AlternateDrug	DecreasedDose/AlternateDrug
+
+mercaptopurine
+PHENOTYPE	TPMT NORMAL METABOLIZER	TPMT INTERMEDIATE METABOLIZER	TPMT POOR METABOLIZER
+NUDT15 Normal Metabolizer	NormalDose	DecreasedDose	DecreasedDose/AlternateDrug
+NUDT15 Intermediate Metabolizer	DecreasedDose	DecreasedDose	DecreasedDose/AlternateDrug
+NUDT15 Poor Metabolizer	DecreasedDose/AlternateDrug	DecreasedDose/AlternateDrug	DecreasedDose/AlternateDrug
+
+
