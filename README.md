@@ -23,11 +23,11 @@ To comprehensively profiling the pharmacogenetic pattern of our QDnewborn cohort
 (4) known actionable PGx variation investigation within the PharmGKB annotation level 1-2; 
 (5) genotype to drug dosage influence evaluation based on the CPIC guideline.
 
-![image](images/analysis_flowchart.png)
+<img src="images/analysis_flowchart.png" width="688" />
 
 Of note, we developed a functional prediction model for PGx variation based on machine learning and knowledge graph, and the overall process is presented as the flowchart below.
 
-![image](images/MLKG_PGx_framework.png)
+<img src="images/MLKG_PGx_framework.png" width="688" />
 
 * For the binary classification module performance of MLKG_PGx model, three models soft voting algorithm (average possibility of XGBoost, LightGBM and random forest, ROC AUC=0.9814) outperformed other algorithms based on full annotation features of training pharmacogenetic variation dataset.
 
