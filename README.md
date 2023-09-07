@@ -14,7 +14,7 @@ The QDnewborn cohort study was approved by the Research Ethics Committee of Qing
 
 After QC, 6,442 Han Chinese individuals (48.93% females) were retained. The sequencing depth of 6,442 participants distributed within the range from 30.89X to 206.08X with the median of 61.75X. According to the paternal place of origin, 97% of the participants were Northern Chinese. 84% of them originated from Shandong province.
 
-<img src="https://github.com/Yimonchen/QingdaoNewbornPGx/blob/main/images/map.png" width="250" />
+<img src="https://github.com/Yimonchen/QingdaoNewbornPGx/blob/main/images/map.png" width="500" />
 
 To comprehensively profiling the pharmacogenetic pattern of our QDnewborn cohort, we designed an analysis pipeline consisting of five main parts, illustrated as the flowchart. These five main parts were:
 (1) genetic variants characterization of 257 pharmacogenes; 
