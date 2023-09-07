@@ -14,7 +14,7 @@ The QDnewborn cohort study was approved by the Research Ethics Committee of Qing
 
 After QC, 6,442 Han Chinese individuals (48.93% females) were retained. The sequencing depth of 6,442 participants distributed within the range from 30.89X to 206.08X with the median of 61.75X. According to the paternal place of origin, 97% of the participants were Northern Chinese. 84% of them originated from Shandong province.
 
-![image](images/map.png | width=100)
+![image](images/map.png | width=50)
 
 To comprehensively profiling the pharmacogenetic pattern of our QDnewborn cohort, we designed an analysis pipeline consisting of five main parts, illustrated as the flowchart. These five main parts were:
 (1) genetic variants characterization of 257 pharmacogenes; 
@@ -23,11 +23,11 @@ To comprehensively profiling the pharmacogenetic pattern of our QDnewborn cohort
 (4) known actionable PGx variation investigation within the PharmGKB annotation level 1-2; 
 (5) genotype to drug dosage influence evaluation based on the CPIC guideline.
 
-![image](images/analysis_flowchart.png | width=100)
+![image](images/analysis_flowchart.png | width=50)
 
 Of note, we developed a functional prediction model for PGx variation based on machine learning and knowledge graph, and the overall process is presented as the flowchart below.
 
-![image](images/MLKG_PGx_framework.png | width=100)
+![image](images/MLKG_PGx_framework.png | width=50)
 
 * For the binary classification module performance of MLKG_PGx model, three models soft voting algorithm (average possibility of XGBoost, LightGBM and random forest, ROC AUC=0.9814) outperformed other algorithms based on full annotation features of training pharmacogenetic variation dataset.
 
