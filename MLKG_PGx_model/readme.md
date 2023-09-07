@@ -58,7 +58,7 @@ There were 535 genetic variation for tarining，which were well annotated as fol
 
 Cross-validation results：
 
-[clicking](https://bgitech-my.sharepoint.com/:x:/g/personal/zhangke1_genomics_cn/ESiRWdziYVVDnLmvuhzZ4bgBFKDlap-YPUoKGMNuo3cO-Q?e=NWyg2O)
+[clicking](https://docs.google.com/spreadsheets/d/1OjNUSJCpq-zSgRpkbbU8y7dn0QOxd4ga96unZVNt00M/edit#gid=0)
 
 
 ### Stage 3: Multi-classification model training and validation
@@ -82,4 +82,4 @@ There were total 377 genetic variation for training, and well annotated as follo
 
 Cross-validation results：
 
-[clicking](https://bgitech-my.sharepoint.com/:x:/g/personal/zhangke1_genomics_cn/EdQ-XZabn6NNmWhsBMn2wwcBIYw9thRRXZD73jSoMdta8w?e=q2IS61)
+[clicking](https://docs.google.com/spreadsheets/d/1OjNUSJCpq-zSgRpkbbU8y7dn0QOxd4ga96unZVNt00M/edit#gid=917227294)
