@@ -17,11 +17,11 @@ After QC, 6,442 Han Chinese individuals (48.93% females) were retained. The sequ
 <img src="https://github.com/Yimonchen/QingdaoNewbornPGx/blob/main/images/map.png" width="688" />
 
 To comprehensively profiling the pharmacogenetic pattern of our QDnewborn cohort, we designed an analysis pipeline consisting of five main parts, illustrated as the flowchart. These five main parts were:
-(1) genetic variants characterization of 257 pharmacogenes; 
-(2) functional prediction model construction for PGx variation; 
-(3) Web-based database development; 
-(4) known actionable PGx variation investigation within the PharmGKB annotation level 1-2; 
-(5) genotype to drug dosage influence evaluation based on the CPIC guideline.
+1. genetic variants characterization of 257 pharmacogenes; 
+2. functional prediction model construction for PGx variation; 
+3. Web-based database development; 
+4. known actionable PGx variation investigation within the PharmGKB annotation level 1-2; 
+5. genotype to drug dosage influence evaluation based on the CPIC guideline.
 
 <img src="images/analysis_flowchart.png" width="688" />
 
