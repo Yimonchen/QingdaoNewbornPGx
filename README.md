@@ -14,26 +14,26 @@ The QDnewborn cohort study was approved by the Research Ethics Committee of Qing
 
 After QC, 6,442 Han Chinese individuals (48.93% females) were retained. The sequencing depth of 6,442 participants distributed within the range from 30.89X to 206.08X with the median of 61.75X. According to the paternal place of origin, 97% of the participants were Northern Chinese. 84% of them originated from Shandong province.
 
-<img src="https://github.com/Yimonchen/QingdaoNewbornPGx/blob/main/images/map.png" width="688" />
+<img src="https://github.com/Yimonchen/QingdaoNewbornPGx/blob/main/images/map.png" width="400" />
 
 
-To comprehensively profiling the pharmacogenetic pattern of our Qingdao newborn cohort, we designed an analysis pipeline consisting of five main parts, illustrated as the flowchart. These five main parts were:
+* To comprehensively profiling the pharmacogenetic pattern of our Qingdao newborn cohort, we designed an analysis pipeline consisting of five main parts, illustrated as the flowchart. These five main parts were:
 
-<img src="images/analysis_flowchart.png" width="688" />
+<img src="images/analysis_flowchart.png" width="500" />
 
-(1) characterizing genetic variants in 257 pharmacogenes; 
-(2) assessing the functionality of these PGx variants; 
-(3) developing a web-based database for presenting these PGx variants; 
-(4) investigating known actionable PGx variations within PharmGKB annotation levels 1 and 2;
-(5) evaluating the influence of genotype on the administered drug dosage based on the CPIC guidelines.
-
-
-<img src="images/Gene2Drug.png" width="688" />
-
-The stacked barplot above is CPIC level A guidance-based non-typical drug response predictions result with impact on over 10% populaions corresponding to both pediatric and adult populations. Pharmacogenes relevant to the drug are indicated. Influence of genotyps on drug usage at the population level, following CPIC level A guidance, is depicted as stacked bars. The level of reimbursement for corresponding drugs in the China National Drug Reimbursement list is indicated on the right in grayscale. Additional information on the Anatomical Therapeutic Chemical (ATC) classification system for corresponding drugs and the specific organ or system that they target is labeled on the rightmost as well.
+1. characterizing genetic variants in 257 pharmacogenes; 
+2. assessing the functionality of these PGx variants; 
+3. developing a web-based database for presenting these PGx variants; 
+4. investigating known actionable PGx variations within PharmGKB annotation levels 1 and 2;
+5. evaluating the influence of genotype on the administered drug dosage based on the CPIC guidelines.
 
 
-<img src="images/QingdaoNewbornCohortPGxDatabase.png" width="688" />
+<img src="images/Gene2Drug.png" width="300" />
 
-The screenshot above is the homepage of our Qingdao newborn cohort PGx database. In total, 593,206 genetic variants from 257 genes related to 946 drugs, along with functional prediction data based on our Qingdao newborn cohort, have been summarized in this DB.
+* The stacked barplot above is CPIC level A guidance-based non-typical drug response predictions result with impact on over 10% populaions corresponding to both pediatric and adult populations. Pharmacogenes relevant to the drug are indicated. Influence of genotyps on drug usage at the population level, following CPIC level A guidance, is depicted as stacked bars. The level of reimbursement for corresponding drugs in the China National Drug Reimbursement list is indicated on the right in grayscale. Additional information on the Anatomical Therapeutic Chemical (ATC) classification system for corresponding drugs and the specific organ or system that they target is labeled on the rightmost as well.
+
+
+<img src="images/QingdaoNewbornCohortPGxDatabase.png" width="500" />
+
+* The screenshot above is the homepage of our Qingdao newborn cohort PGx database. In total, 593,206 genetic variants from 257 genes related to 946 drugs, along with functional prediction data based on our Qingdao newborn cohort, have been summarized in this DB.
 
